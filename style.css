@@ -1113,23 +1113,31 @@ color: #FFC0C7;
 
 }
 
+
+.career_container img{
+ display: flex;
+ width: 200px;
+ margin-right: 180px;
+ 
+}
+.container_careers{
+  display: flex;
+  justify-content: space-between
+}
 .career_btn {
-  background-color: green;
+  height: 60px;
   color: white;
-  margin-left: 20px;
-  padding: 30px;
   font-size: 20px;
   border-radius: 50px;
   font-size: 18px;
   background-color: #04AA6D;
   padding: 17px 55px;
   color: #FFFFFF;
+  border: 1px solid 04AA6D;
   margin-bottom: 16px !important;
 
 
 }
-
-
 .head_container {
   padding: 50px;
   line-height: 3;
@@ -1159,7 +1167,7 @@ color: #FFC0C7;
   text-align: center;
 }
 .logo1{
-  background-color: white;
+  background-color:white
 }
 .space{
   background-image: url('images/background_in_space.webp');
@@ -1178,7 +1186,7 @@ color: #FFC0C7;
 .logo1 {
   margin-left: 40px;
   margin-top: 20px;
-  padding: 20px;
+  
 }
 .footer_one img {
   height: 20px;
@@ -1222,8 +1230,6 @@ body {
   gap: 10px;
 }
 
-
-
 .links h1 {
   font-size: 18px;
   color: white;
@@ -1259,18 +1265,36 @@ body {
 .tutorial-container {
   width: 200px;
   height: 200px;
-  left: 25px;
+  
+}
+.footer_part a{
+  color: white;
+  text-decoration: none !important;
+
+}
+
+.footer_section{
+
+  display: flex;
+  
+  justify-content: space-around;
 }
 
 .footer_part p{
   
-  padding-left: 40px;
+  padding-left: 60px;
   color: #ddd;
   font-size: 12px;
   line-height: 15px;
+  width: 100%;
   
 
 }
+
+.footer_part a:hover, .footer_part a:active {
+  color: #FFF4A3;
+}
+
 
 .slideshow-container {
   max-width: 1000px;
