@@ -1003,7 +1003,7 @@ padding: 20px;
   font-weight: 700;
   color: white;
   font-family: "Segoe UI",Arial,sans-serif;
-  height: 100px;
+  height: 150px;
   background-color: #282A35!important;
 }
 
@@ -1182,6 +1182,7 @@ color: #FFC0C7;
 }
 .footer_one {
   display: flex;
+  margin-left: 150px;
 }
 .logo1 {
   margin-left: 40px;
@@ -1281,7 +1282,7 @@ body {
 }
 
 .footer_part p{
-  
+  margin-left: 100px;
   padding-left: 60px;
   color: #ddd;
   font-size: 12px;
